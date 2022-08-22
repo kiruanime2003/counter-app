@@ -1,0 +1,47 @@
+$mintCream: #EDF4ED;
+$turquoiseGreen: #ABD1B5;
+$darkSeaGreen: #79B791;
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: $mintCream;
+}
+
+p{
+    color: $darkSeaGreen;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        padding: 10px 20px;
+        color: $mintCream;
+        background-color: $darkSeaGreen;
+        border: none;
+        margin: 8px 0;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+    }
+
+    button:hover{
+        background-color: $turquoiseGreen;
+        cursor: pointer;
+        color: $darkSeaGreen;
+    }
+}
